@@ -1,0 +1,15 @@
+#paquetes que utilize mas instalacion
+using Pkg
+Pkg.add("Logging")
+Pkg.add("TerminalLoggers")
+Pkg.add("HTTP")
+Pkg.add("CSV")
+using HTTP,TerminalLoggers,Logging #Los paquetes que utilize para generar la barra de progreso y la descarga
+#Genera la barra de descarga que vamos a utilizar en este caso solo se puede ver en la terminal :( por ahora xd
+global_logger(TerminalLogger(right_justify=120))
+
+#url la url de donde vamos a descar el archivo 
+url = "http://ipv4.download.thinkbroadband.com/10MB.zip"
+HTTP.download(url)
+
+#por ahora ando trabajando en como descomprimir zip directamente desde julia :( 
