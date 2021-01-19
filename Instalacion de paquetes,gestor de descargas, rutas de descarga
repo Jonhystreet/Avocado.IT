@@ -1,0 +1,88 @@
+#Funcion que prepara los paquetes para ser descargados
+function Instalacion()
+Pkg.add("CSV")
+Pkg.add(PackageSpec(url="https://github.com/JuliaData/JuliaDB.jl"))
+Pkg.add("Distributions")
+Pkg.add("OnlineStats")
+Pkg.add("DataFrames")
+Pkg.add("Dates")
+Pkg.add("Plots")
+Pkg.add("PyCall")
+Pkg.build("PyCall")
+Pkg.add("HTTP")
+Pkg.add("ZipFile")
+Pkg.add("Logging")
+Pkg.add("TerminalLoggers")
+Pkg.add("Dates")
+Pkg.add("XLSX")
+end
+using Pkg
+Instalacion()
+using Printf, CSV, JuliaDB, Distributions, OnlineStats, DataFrames, Dates, Plots, PyCall, HTTP, ZipFile, Logging, TerminalLoggers, Dates
+#Funcion que va descomprimir seleccionar fecha y descargar el archivo
+function unzip_linkscovid_descarga()
+global_logger(TerminalLogger(right_justify=120))
+covidActual = "http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/datos_abiertos_covid19.zip"
+
+function unzip(rar,pathS="")
+    local pathC = ""
+    rzip = ZipFile.Reader(rar)
+    for i in rzip.files
+        path = joinpath(pathS,i.name)
+        if (endswith(i.name,"/") || endswith(i.name,"\\"))
+            rm(path, force=true, recursive=true)
+            mkdir(path)
+            if isempty(pathC)
+                pathC = path
+            end
+        else
+            write(path, read(i))
+            if isempty(pathC)
+                pathC = path
+            end
+        end
+    end
+    close(rzip)
+    rm(rar)
+    return pathC
+end
+
+function links_covid(f="")
+    ff = DateFormat("dd-mm-yyyy")
+    fe = Date(f,ff)
+    if string(Dates.year(fe)) == "2020"
+        return covidLink = string("http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/historicos/",
+            @sprintf("%02d",Dates.month(fe)),"/datos_abiertos_covid19_",
+            @sprintf("%02d",Dates.day(fe)),".",
+            @sprintf("%02d",Dates.month(fe)),".2020.zip")
+    elseif string(Dates.year(fe)) == "2021"
+        return covidLink = string("http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/historicos/2021/",
+            @sprintf("%02d",Dates.month(fe)),"/datos_abiertos_covid19_",
+            @sprintf("%02d",Dates.day(fe)),".",
+            @sprintf("%02d",Dates.month(fe)),".2021.zip")
+    end
+end
+#SE coloca la fecha en formato dd-mm-yyyy en el campo f
+function descargar_covid(path="",f="")
+    if isempty(path)
+        path = pwd()
+    end
+    if isempty(f)
+        covidLink = covidActual
+    else
+        covidLink = links_covid(f)
+    end
+    
+    rar = HTTP.download(covidLink, path)
+    return unzip(rar, path)
+end
+end
+function Datos_cov_descarga()
+    print("Dame la fecha de descarga en formato dd-mm-yyyy o deja vacia para la mas actual:  ")
+    fecha=readline()
+    print("Dame tu ruta de descarga ya sea carpeta o escritorio:  ")
+    ruta=readline()
+    covid=descargar_covid(ruta,fecha)
+end
+#uso de los paquetes
+Datos_cov_descarga()
