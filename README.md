@@ -23,7 +23,10 @@
   - ExcelReaders
   - OnlineStats
   - HTTP
-  -
+  - Logging
+  - TerminalLoggers
+  - Dates
+  - XLSX
 ### Versionado
 - Notas de version
   - Version 1.0
