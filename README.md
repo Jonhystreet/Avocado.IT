@@ -40,6 +40,7 @@
 - [DataFrames](https://dataframes.juliadata.org/stable/)
 - [XLXS](https://felipenoris.github.io/XLSX.jl/dev/)
 - [HTTP](https://github.com/JuliaWeb/HTTP.jl)
+- [Manual types](https://docs.julialang.org/en/v1/manual/types/)
 
 ### Expresiones de gratitud
 - Da las gracias publicamente
