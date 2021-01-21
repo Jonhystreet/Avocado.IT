@@ -5,7 +5,8 @@
 
 
 ### Prerequisitos
-
+- Julia ver. 1.5.3
+- Actualizar registros Julia
 
 
 
@@ -27,8 +28,9 @@
   - Descomprime el zip y coloca en carpeta de la que escogamos ruta
   - Puedes colocar la fecha de la base de datos que quieres descargar
 - Bugs reportados
- 
-
+  - 
+  -
+  -
 ### Licencia
 ##### Este proyecto esta bajo la licencia AvocadoIT
 
