@@ -39,6 +39,7 @@
 - 
 - [ExcelReaders](https://github.com/queryverse/ExcelReaders.jl)
 - [DataFrames](https://dataframes.juliadata.org/stable/)
+- [XLXS](https://felipenoris.github.io/XLSX.jl/dev/)
 
 ### Expresiones de gratitud
 - Da las gracias publicamente
