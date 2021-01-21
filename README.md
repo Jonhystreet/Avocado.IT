@@ -8,6 +8,7 @@
 - Verificar que todas las depedencias esten instaladas y actualizadas en su version mas actual usando la funcion Instalacion()
 
 ### Instalacion en beta
+- :warning:	Trabajnadose para poder abrirla al publico :warning:	
 
 
 #### Documentacion
