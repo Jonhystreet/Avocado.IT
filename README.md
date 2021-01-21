@@ -1,5 +1,5 @@
 <h1 align="center">  :avocado: AvocadoIT :avocado: </h1>                       
- 
+
 
 
 ### Prerequisitos
@@ -25,8 +25,8 @@
     - Descarga archivos abiertos del conacyt
     - Descomprime el zip y coloca en carpeta de la que escogamos ruta
     - Puedes colocar la fecha de la base de datos que quieres descargar
-  - Bugs reportados
-    - 
+  - Problemas reportados
+    - No logra instalarse exitosamente como un paquete  para su uso en Julia
     - 
     -
 ### Licencia
@@ -47,6 +47,7 @@
 
 
 ![Captura](https://user-images.githubusercontent.com/64434461/105337408-fbf50a80-5b9f-11eb-8cfc-668c7851a330.PNG)
+
 
 
 
