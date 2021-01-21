@@ -34,6 +34,7 @@
     - Descarga archivos abiertos del conacyt
     - Descomprime el zip y coloca en carpeta de la que escogamos ruta
     - Puedes colocar la fecha de la base de datos que quieres descargar
+    - Discrimina datos obtenidos del indice migratorio
   - Problemas reportados
     - No logra instalarse exitosamente como un paquete  para su uso en Julia
     - 
