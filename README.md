@@ -5,7 +5,7 @@
 ### Prerequisitos
 - Julia ver. 1.5.3
 - Actualizar registros Julia
-
+- Verificar que todas las depedencias esten instaladas y actualizadas en su version mas actual usando la funcion Instalacion()
 
 
 
@@ -37,7 +37,8 @@
 #### Fuentes de consulta 
 - ![Conacyt](https://user-images.githubusercontent.com/64434461/105337153-b0426100-5b9f-11eb-9d10-239d352fc87f.jpg) [Conacyt](https://datos.covid-19.conacyt.mx/)
 - 
--
+- [ExcelReaders](https://github.com/queryverse/ExcelReaders.jl)
+- [DataFrames](https://dataframes.juliadata.org/stable/)
 
 ### Expresiones de gratitud
 - Da las gracias publicamente
