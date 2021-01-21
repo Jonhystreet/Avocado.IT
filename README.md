@@ -1,7 +1,7 @@
 <h1 align="center">  :avocado: AvocadoIT :avocado:                         
 </h1>
 
-![Captura](https://user-images.githubusercontent.com/64434461/105337408-fbf50a80-5b9f-11eb-8cfc-668c7851a330.PNG)
+
 
 
 #### Documentacion
@@ -28,7 +28,7 @@
 
 
 
-
+![Captura](https://user-images.githubusercontent.com/64434461/105337408-fbf50a80-5b9f-11eb-8cfc-668c7851a330.PNG)
 
 
 
