@@ -7,7 +7,7 @@
 - Actualizar registros Julia
 - Verificar que todas las depedencias esten instaladas y actualizadas en su version mas actual usando la funcion Instalacion()
 
-
+### Instalacion en beta
 
 
 #### Documentacion
@@ -17,7 +17,10 @@
 -
 
 ### Constriudo con
-
+- Julia
+  - JuliaDB
+  - CSV
+  - ExcelReaders
 
 ### Versionado
 - Notas de version
