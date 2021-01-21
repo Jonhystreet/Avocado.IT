@@ -45,10 +45,4 @@
 - Comenta a otros sobre este proyecto
 
 
-
-
 ![Captura](https://user-images.githubusercontent.com/64434461/105337408-fbf50a80-5b9f-11eb-8cfc-668c7851a330.PNG)
-
-
-
-
