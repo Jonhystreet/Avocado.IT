@@ -27,10 +27,10 @@
   - Descarga archivos abiertos del conacyt
   - Descomprime el zip y coloca en carpeta de la que escogamos ruta
   - Puedes colocar la fecha de la base de datos que quieres descargar
-- Bugs reportados
-  - 
-  -
-  -
+    - Bugs reportados
+       - 
+       -
+       -
 ### Licencia
 ##### Este proyecto esta bajo la licencia AvocadoIT
 
