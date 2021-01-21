@@ -21,7 +21,9 @@
   - JuliaDB
   - CSV
   - ExcelReaders
-
+  - OnlineStats
+  - HTTP
+  -
 ### Versionado
 - Notas de version
   - Version 1.0
