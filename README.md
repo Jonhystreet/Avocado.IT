@@ -17,7 +17,7 @@
 - [Monitoreo semanal](https://docs.google.com/document/d/1zW7SAImudc0uELWdlGQNxZkWfY7XK74V/edit?rtpof=true)
 - [Gestion de riesgos](https://docs.google.com/document/d/1zTWDvQ7vHoFZQ6OGioEXiaex0mPl4dkH/edit)
 - [Diagramas](https://drive.google.com/file/d/19TIxe9JNpFI628FSW4Zw_Nwf1LZ-n_rx/view?usp=sharing)
-- [Diagrama C4](https://drive.google.com/file/d/1w--vVWpJMfJZlN0osOyC9wfUOPzyj2Tc/view?usp=sharing)
+
 
 ### Constriudo con
 - Julia
