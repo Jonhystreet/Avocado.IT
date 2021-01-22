@@ -1,6 +1,6 @@
 <h1 align="center">  :avocado: AvocadoIT :avocado: </h1>                       
 
- :warning: :warning: :warning: :warning: :warning: EN MANTENIMIENTO 
+ :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: EN MANTENIMIENTO  :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: 
 
 ### Prerequisitos
 - Julia ver. 1.5.3
