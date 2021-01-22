@@ -14,8 +14,8 @@
 #### Documentacion
 
 - [Pruebas de testeo](https://docs.google.com/document/d/1zBoVNa-wu0sDKJZIGAE1M4t3dKF4zB10/edit)
--
--
+- [Monitoreo semanal](https://docs.google.com/document/d/1zW7SAImudc0uELWdlGQNxZkWfY7XK74V/edit?rtpof=true)
+- [Gestion de riesgos](https://docs.google.com/document/d/1zTWDvQ7vHoFZQ6OGioEXiaex0mPl4dkH/edit)
 
 ### Constriudo con
 - Julia
