@@ -7,7 +7,7 @@
 - Verificar que todas las depedencias esten instaladas y actualizadas en su version mas actual usando la funcion Instalacion()
 
 ### Instalacion en beta
-- 	
+- 	Pkg.add(PackageSpec(url="https://github.com/Jonhystreet/Avocado.IT.git"))
 
 
 #### Documentacion
