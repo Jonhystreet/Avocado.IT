@@ -1,6 +1,5 @@
 <h1 align="center">  :avocado: AvocadoIT :avocado: </h1>                       
 
- :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: EN MANTENIMIENTO  :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: 
 
 ### Prerequisitos
 - Julia ver. 1.5.3
@@ -8,7 +7,7 @@
 - Verificar que todas las depedencias esten instaladas y actualizadas en su version mas actual usando la funcion Instalacion()
 
 ### Instalacion en beta
-- :warning:	Trabajandose para poder abrirla al publico :warning:	
+- 	
 
 
 #### Documentacion
