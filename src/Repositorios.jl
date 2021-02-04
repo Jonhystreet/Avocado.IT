@@ -1,0 +1,21 @@
+using Pkg
+
+function instalacion()
+     Pkg.add("CSV")
+     Pkg.add("ExcelReaders")
+     Pkg.add(PackageSpec(url="https://github.com/JuliaData/JuliaDB.jl"))
+     Pkg.add("Distributions")
+     Pkg.add("OnlineStats")
+     Pkg.add("DataFrames")
+     Pkg.add("Dates")
+     Pkg.add("Plots")
+     Pkg.add("PyCall")
+     Pkg.build("PyCall")
+     Pkg.add("HTTP")
+     Pkg.add("ZipFile")
+     Pkg.add("Logging")
+     Pkg.add("TerminalLoggers")
+     Pkg.add("Dates")
+     Pkg.add("XLSX")
+     Pkg.add("CSVFiles")
+end
